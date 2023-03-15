@@ -1,0 +1,48 @@
+End to End ML project
+Set up Porject with github
+1- data Ingestion
+2- data Transformation
+3-Model Trainer
+4- Model Evaluation
+5- Model Deployment
+
+CI/CD Pipelines- Github Actions
+Deploymnet ---- AWS
+
+
+First Day Agenda
+
+1- Set up the github{Repository}
+	a- new environment
+	b- setup.py
+	c- requirements.txt
+
+
+
+First Day
+open github and create repo with name 'mlproject'
+create new folder name as "mlproject"
+do to that folder and copy the path of that folder.
+open anaconda propmt and go to that folder locations
+type 'code .', it willl open vs code.
+in code open new terminal
+1- Creating new enviroment in code== conda create -p venv python==3.8 -y
+2- in code type 
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/suzankhan06/mlproject.git
+	git push -u origin main
+2- remember-- if you are setting the github and push and commit for the first time then you also have to do "git global" google it
+3- create setup.py and requirements.txt files in your vs code.
+4- the the details in setup.py files as i wrote in my vs code.
+5- create  one folder as 'src' means source folder and inside it create one file name as '__init__.py'
+this is coz whenever it will check for find_packages from setup.py it will look for the src folder and inside it, it will look for '__init__.py' file and take all the packages.
+
+
+exception.py file to error_message basically we create this file for showing us whenever we get error in our program.
+
+logger.py we create  for logging info, so whenever we get the error we use logging.info file to log in and then execute the error which we had.
+
+
